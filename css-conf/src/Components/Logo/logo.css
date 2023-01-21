@@ -1,0 +1,18 @@
+.list-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  background: lightgrey;
+  height: 90vh;
+}
+
+li {
+  list-style: none;
+}
+
+.img {
+  width: 300px;
+  /* mix-blend-mode: multiply;
+  filter: contrast(2); */
+}

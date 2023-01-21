@@ -1,0 +1,34 @@
+.btn-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.btn {
+  margin: 0 10px;
+  background-color: yellow;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: yellowgreen;
+}
+
+.list-grid {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  list-style: none;
+}

@@ -1,0 +1,29 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.img {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.title,
+.description {
+  text-decoration: none;
+  color: gray;
+}
+
+.title {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.description {
+  width: 400px;
+  margin-bottom: 50px;
+}
